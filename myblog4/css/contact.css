@@ -1,0 +1,122 @@
+#message-contact{
+	padding: 80px 0 80px 0;
+	height: 850px;
+}
+#message-contact .container{
+	width: 1170px;
+	padding: 0 15px 0 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#message-contact .message-address{
+    height: 500px;
+}
+#message-contact .contact-left{
+	width: 730px;
+	height: 500px;
+	padding: 0 15px 0 15px;
+	float: left;
+	/*background: red;*/
+}
+#message-contact .contact-left form p{
+    color: #555;
+    font-size: 15px;
+    line-height: 29px;
+    margin: 16px 0;
+}
+#message-contact .contact-left form label{
+	display: block;
+    font-size: 0.8125em;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#message-contact .contact-left p input{
+	padding: 10px;
+    width: 95%;
+    color: #9198A3;
+    background: #fff;
+    outline: none;
+    display: block;
+    border: 1px solid #eee;
+    -webkit-appearance: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+#message-contact .contact-left p textarea{
+	padding: 10px;
+    display: block;
+    width: 95%;
+    background: #fff;
+    border: 1px solid #eee;
+    outline: none;
+    color: #9198A3;
+    resize: none;/*禁止拉伸textare*/
+    height: 150px;
+    -webkit-appearance: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    overflow: auto;
+}
+#submit{
+	display: inline-block;
+    padding: 13px 25px;
+    background: #02D7FD;
+    color: #FFF;
+    font-size: 1em;
+    line-height: 18px;
+    text-transform: uppercase;
+    border: none;
+    /*outline: none;*/
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -webkit-appearance: none;
+    margin-top: 16px;
+    cursor: pointer;
+}
+#submit:hover{
+	transform: rotateY(15deg);
+	transition: background-color 0.2s linear;
+	background: #000;
+}
+#message-contact .contact-right{
+	float: left;
+	width: 350px;
+	height: 298px;
+	padding: 0 15px 0 15px;
+}
+#message-contact .contact-right h2{
+	color: #000;
+	font-size: 24px;
+	margin: 20px 0 36px 0;
+}
+#message-contact .contact-right .address{
+	margin-bottom: 24px;
+	overflow: hidden;
+    color: #999;
+    line-height: 24px;
+}
+#message-contact .contact-right .phone{
+	margin-bottom: 24px;
+	overflow: hidden;
+    color: #999;
+    line-height: 24px;
+}
+#message-contact .contact-right a{
+	color: #1B242F;	
+}
+#message-contact .contact-right a:hover{
+	color: red;	
+	text-decoration: underline;
+	transition: color 0.2s linear;
+}
+
+
+#message-contact .map{
+	margin-top: 64px;
+	min-height: 300px;
+	background: #999;
+}

@@ -1,0 +1,8 @@
+.lightbox-img{
+	max-width: 600px;
+	position: fixed;
+	text-align: center;
+	z-index: 1;
+	opacity: 0;
+    filter: alpha(opacity=0);
+}

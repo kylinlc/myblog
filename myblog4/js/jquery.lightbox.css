@@ -1,0 +1,31 @@
+.lightbox-overlay{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: #000;
+	opacity: 0;
+    filter: alpha(opacity=0);
+}
+.lightbox-img{
+	max-width: 600px;
+	position: fixed;	
+	text-align: center;
+	z-index: 1;
+	opacity: 0;
+    filter: alpha(opacity=0);
+}
+.loading{
+	font-size: 28px;
+}
+.lightbox-close{
+	width: 13px;
+	height: 13px;
+	/*background: red;*/
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background: url(../img/close.gif) no-repeat;
+	cursor: pointer;
+}
